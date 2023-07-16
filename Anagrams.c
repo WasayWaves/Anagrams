@@ -47,7 +47,7 @@ int are_anagrams(char first_word[], char second_word[]) {
         // compare frequency arrays
         for (i = 0; i < SIZE; i++) {
             if (frequency1[i] != frequency2[i]) {
-                return 0;
+                return 0; //
             }
         }
         return 1;
